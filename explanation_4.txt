@@ -1,0 +1,7 @@
+The group class has the capacity to embed users and other groups(same capacity).
+To find a user is in a group, the group's users has to be checked and users in the group's subgroups. Gives rise to a recursive function
+
+The runtime complexity is O(n^2) and the space complexity is O(1).
+
+
+

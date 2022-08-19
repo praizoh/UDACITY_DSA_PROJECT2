@@ -1,0 +1,5 @@
+In getting the union and intersection of two linkedlist, I also made use of lists to hold data for looping. And I also made use 
+of sets to remove duplicates in union.
+Time complexity is O(n2). Space complexity is O(n).
+
+

@@ -1,0 +1,10 @@
+1. When function is called to encode a text. I remove space from text and convert to small letters.
+2. Create a dictionary to represent each unique letters in the given text as key, and their frequency as value
+3. Next, I built nodes for the huffman tree with the frequency and key(from dictionary in 2) using the Node class
+4. Looping through the nodes, I created an heap by combining two nodes with minimum frequency into a parent node and
+   assigining those minimum nodes and children nodes to the newly creted parent node. 
+5. Got the encoded string for the initial text.
+6. To decode, I looped through the heap and got the decoded text.
+7. The huffman_encoding function runtime complexity is O(nlogn) and the 
+    huffman_Decoding function runtime complexity is O(n^2). The space complexity is O(n).
+

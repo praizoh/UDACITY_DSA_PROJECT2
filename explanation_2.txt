@@ -1,0 +1,4 @@
+To solve this problem, I used a recursive function to loop through the given directory and list out files with said 
+extension if any. I made use of array to hold file names wih extention if found.
+The runtime complexity is O(n^2)
+The space complexity is O(m*n)
