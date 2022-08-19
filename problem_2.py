@@ -51,3 +51,11 @@ def find_files(suffix, path):
 
 
 print(find_files(".pdf", "testdir"))
+print("-----------")
+find_files(".c", "./")
+print("-----------")
+find_files("", "./")
+print("-----------")
+find_files(".h", "./")
+print("-----------")
+find_files(".docx", "./")
